@@ -1,0 +1,52 @@
+ @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+ $dark-blue: #011627;
+ $less-white: #FDFFFC;
+ $zord-red: #E71D36;
+ $zord-orange: #FF9F1C;
+
+ .blue-row{
+   background-color: $dark-blue;
+   color: white;
+ }
+
+ .white-row{
+   background-color: $less-white;
+   color: $dark-blue;
+ }
+
+ .red-row{
+   background-color: $zord-red;
+   color: $less-white;
+ }
+
+ .orange-row{
+   background-color: $zord-orange;
+   color: $less-white;
+ }
+
+ .rounded{
+   img{
+     border-radius: 50%;
+     margin-bottom: 10px;
+   }
+
+   figcaption{
+     font-size: 20px;
+   }
+ }
+
+ .lead{
+   margin: 20px 0 30px;
+ }
+
+ .social{
+   color: $dark-blue;
+   transition: 0.7s color;
+   margin-bottom: 15px;
+   display: block;
+
+   &:hover{
+     color: $less-white;
+   }
+ }
