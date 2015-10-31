@@ -1,10 +1,15 @@
  @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+ @import "malarkey";
 
  $dark-blue: #011627;
+ $light-blue: #919CA5;
  $less-white: #FDFFFC;
- $zord-red: #E71D36;
- $zord-orange: #FF9F1C;
+ $red: #E71D36;
+ $orange: #FF9F1C;
 
+ h1 {
+   padding: 20px 0;
+ }
  .blue-row{
    background-color: $dark-blue;
    color: white;
@@ -13,15 +18,22 @@
  .white-row{
    background-color: $less-white;
    color: $dark-blue;
+   padding: 20px 0 50px;
+
+   h1 {
+     margin-bottom: 20px;
+     font-family: 'Droid Sans', sans-serif;
+     border-bottom: 1px solid $light-blue;
+   }
  }
 
  .red-row{
-   background-color: $zord-red;
+   background-color: $red;
    color: $less-white;
  }
 
  .orange-row{
-   background-color: $zord-orange;
+   background-color: $orange;
    color: $less-white;
  }
 
