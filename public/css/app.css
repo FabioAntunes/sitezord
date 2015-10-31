@@ -5797,13 +5797,24 @@ h1 {
     margin-bottom: 20px;
     font-family: 'Droid Sans', sans-serif;
     border-bottom: 1px solid #919CA5; }
-
-.red-row {
-  background-color: #E71D36;
-  color: #FDFFFC; }
+  .white-row p {
+    font-size: 1.5em; }
 
 .orange-row {
   background-color: #FF9F1C;
+  color: #FDFFFC; }
+  .orange-row h1 {
+    margin-bottom: 20px;
+    font-family: 'Droid Sans', sans-serif;
+    border-bottom: 1px solid #FDFFFC; }
+  .orange-row p {
+    font-size: 1.5em; }
+
+.social-row {
+  margin: 30px 0; }
+
+.red-row {
+  background-color: #E71D36;
   color: #FDFFFC; }
 
 .rounded img {
