@@ -25,17 +25,35 @@
      font-family: 'Droid Sans', sans-serif;
      border-bottom: 1px solid $light-blue;
    }
- }
 
- .red-row{
-   background-color: $red;
-   color: $less-white;
+   p{
+     font-size: 1.5em;
+   }
  }
 
  .orange-row{
    background-color: $orange;
    color: $less-white;
+
+   h1 {
+     margin-bottom: 20px;
+     font-family: 'Droid Sans', sans-serif;
+     border-bottom: 1px solid $less-white;
+   }
+
+   p{
+     font-size: 1.5em;
+   }
  }
+
+ .social-row{
+   margin: 30px 0;
+ }
+ .red-row{
+   background-color: $red;
+   color: $less-white;
+ }
+
 
  .rounded{
    img{
